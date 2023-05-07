@@ -9,6 +9,7 @@ const users = [];
 app.engine("hbs", exphbs({ defaultLayout: "main-layout", extname: "hbs" }));
 app.set("view engine", "hbs");
 app.set("views", "views");
+app.set("views", "views");
 
 //this for pug
 // app.set("view engine", "pug");
