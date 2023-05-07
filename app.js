@@ -6,8 +6,8 @@ const app = express();
 const users = [];
 
 //this for handlebars
-app.engine("hbs", exphbs({ defaultLayout: "main-layout", extname: "hbs" }));
-app.set("view engine", "hbs");
+// app.engine("hbs", exphbs({ defaultLayout: "main-layout", extname: "hbs" }));
+app.set("view engine", "ejs");
 app.set("views", "views");
 
 //this for pug
